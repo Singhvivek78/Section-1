@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link
+        href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic"
+        rel="stylesheet" />
+
+    <style>
+        * {
+            font-family: Montserrat;
+        }
+
+        .card {
+            display: flex;
+            /* border: 2px solid green; */
+            height: 90vh;
+        }
+
+        .prod-img {
+            border: 2px solid red;
+            width: 50%;
+
+            background-image: url(https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcSRujjpGXoLk7v5I5ZKSiTWKtL7o2Pc8-0E-9TmQ4Ti1Hz7ULdoGtKN-XGqCb98qxcRQ59fqJr4F-tk3xke5iSN-wbk5EPeCXyda92wo2HO);
+            background-size: cover;
+            background-position: center;
+        }
+
+        .prod-content {
+            /* border: 2px solid blue; */
+            width: 50%;
+            padding: 50px;
+        }
+
+        .detail {
+            display: flex;
+            gap: 20px;
+        }
+        .detail-name{
+            font-family: bold;
+        }
+        .prod-price{
+            font-weight: bold;
+            font-size:40px ;
+        }
+        .cart-btn{
+            background-color: black;
+            columns: white;
+            padding:10px ;
+            border:none ;
+        }
+        .fav-btn{
+            background-color: red;
+            color: white;
+            border-radius:5px ;
+            padding:10px ;
+            border:none ;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="card">
+        <div class="prod-img">
+            <h2>product image</h2>
+
+        </div>
+        <div class="prod-content">
+            <h4 class="brand">CITIZEN</h4>
+            <h2>AXIOM</h2>
+            <p>Model AX878-54E</p>
+
+            <div class="detail">
+                <p class="detail-name">MOVEMENT</p>
+                <P clas="detail-value">Eco-Driveh504</P>
+            </div>
+            <div class="detail">CASE SIZE</p>
+                <P clas="detail-value">43m</P>
+            </div>
+                <p class="detail-name">COLOR</p>
+                <div>
+                    <div>
+                        <div class="detail">
+                            <p class="detail-name">color</p>
+                            <p class="detail-value">gray</p>
+
+                    </div>
+                </div>
+<hr>
+<p class="prod-price">₹2399</p>
+<div class="btn-group">
+    <button class="cart-btn">add to cart</button>
+    <button class="fav-btn">
+        <i class="fa-regular fa-heart"></i>
+    </button>
+
+</div>
+        </div>
+    </div>
+</body>
+
+</html>
